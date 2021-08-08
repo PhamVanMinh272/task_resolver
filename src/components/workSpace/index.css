@@ -1,0 +1,50 @@
+.App .work-space-container {
+    border-left: 1px solid var(--border-color);
+    margin-left: 20px;
+}
+
+.App .work-space-container ul {
+    font-size: var(--text-font-size);
+    color: var(--text-black-color);
+    border: none;
+}
+
+.App .work-space-container ul li {
+    margin: 0;
+    padding-left: 15px !important;
+}
+
+.pomodoro-container {
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.pomodoro-time {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.pomodoro-container button {
+    border: none;
+    font-weight: bolder;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+}
+
+.pomodoro-container button:hover {
+    background: rgb(243, 243, 243);
+    color: black;
+}
+
+.countdown-pomodoro span {
+    color: white;
+}
+
+.countdown-pomodoro .ant-statistic-title {
+    color: white;
+    font-weight: bold;
+}
+

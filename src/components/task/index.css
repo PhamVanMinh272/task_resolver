@@ -1,0 +1,18 @@
+.task-container {
+    font-size: var(--text-font-size);
+    color: var(--text-black-color)
+}
+
+.task-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-menu-container {
+    border-left: 1px solid var(--border-color);
+}
+
+.pomodoro-track-container {
+    margin-left: 20px;
+    margin-right: 2px;
+}
